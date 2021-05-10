@@ -1,1 +1,3 @@
-# ISMEC_Deng_etal_2021
+This is the code in R accompanying the manuscript Deng, Angulo, Saavedra. Generalizing game-changing species across microbial communities. ISME Comm. (in press)
+The main code (deltaF.R) provides the calculation of delta_F (the increase or decrease in feasibility domain of 2 resident species after the introduction of a non-resident species). The code is commented. The code uses the functions written in functions.R and a pairwise interaction matrix (here provided as .txt file).
+Note that if the context is to suppress (promote) a resident species, delta_F needs to be negative (positive) in order to be operationalized as F=1; otherwise F=0 (see manuscript).
